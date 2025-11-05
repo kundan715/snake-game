@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Snake Game with Obstacles</title>
+<link rel="stylesheet" href="stylefile.css">
+</head>
+<body>
+
+<h1>Snake Game</h1>
+
+<canvas id="gameCanvas" width="400" height="400"></canvas>
+
+<div id="controls">
+    <label for="speed">Speed:</label>
+    <select id="speed">
+        <option value="200">Slow</option>
+        <option value="150" selected>Normal</option>
+        <option value="100">Fast</option>
+        <option value="50">Very Fast</option>
+    </select>
+    <button id="restartBtn">Restart</button>
+</div>
+
+<div id="result"></div>
+<div>High Score: <span id="highScore">0</span></div>
+
+<audio id="popSound" src="sharp-pop-328170.mp3"></audio>
+
+<script src="scriptfile.js"></script>
+
+</body>
+</html>

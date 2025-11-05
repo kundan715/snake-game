@@ -1,0 +1,22 @@
+body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #222;
+        color: white;
+    }
+    canvas {
+        border: 2px solid white;
+        background: black;
+    }
+    #controls {
+        margin: 10px;
+    }
+    select, button {
+        padding: 5px;
+        font-size: 16px;
+        margin: 5px;
+    }
+    #result {
+        font-size: 18px;
+        margin-top: 10px;
+    }
